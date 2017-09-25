@@ -25,7 +25,7 @@ cd $GOPATH/src/github.com/mlambrichs/stresstest
 ```
 ...and install
 ```
-go install
+go install ./...
 ```
 This will result in a binary 'stresstest' in $GOPATH/bin
 So, do this:
